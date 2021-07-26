@@ -5,7 +5,18 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android":{
+      "splash":{
+              "ldpi":"./assets/splash-screens/android/drawable-ldpi/splash.png",
+              "mdpi":"./assets/splash-screens/android/drawable-mdpi/splash.png",
+              "hdpi":"./assets/splash-screens/android/drawable-hdpi/splash.png",
+              "xhdpi":"./assets/splash-screens/android/drawable-xhdpi/splash.png",
+              "xxhdpi":"./assets/splash-screens/android/drawable-xxhdpi/splash.png",
+              "xxxhdpi":"./assets/splash-screens/android/drawable-xxxhdpi/splash.png",
+              "resizeMode":"cover"
+            }
+    }
   },
   "name": "my-app"
 }
